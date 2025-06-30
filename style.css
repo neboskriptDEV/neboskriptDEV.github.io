@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none; 
+    font-family: "Playwrite GB S", cursive; 
+}
+
+html{
+    font-size: 52.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: #09001a;
+    color: rgb(115, 67, 179);
+}
+
+header{
+    margin-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 9%;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.title{
+    transition: transform 0.3s ease;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+    font-weight: 900;
+    color: rgb(83, 0, 160);
+    line-height: 40px;
+}
+
+.title:hover{
+    text-shadow: 0 0 10px #970076;
+    transform: scale(1.1);
+    color: rgb(187, 15, 255);
+}
+
+.label{
+    font-size: 25px;
+    text-align: center;
+    display: block;
+}
+
+.textfield{
+    background-color: rgb(41, 18, 59);
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.submitbutton{
+    display: block;
+    margin: 0 auto;
+    font-size: 23px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: rgb(89, 34, 131);
+    color: rgb(37, 1, 61);
+    font-weight: 700;
+    transition: transform 0.3s ease;
+    
+}
+
+.submitbutton:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgb(89, 34, 131);
+}
+
+.submitbutton:active{
+    transform: translateY(3px);
+}
+
+.longtextfield{
+    background-color: rgb(41, 18, 59);
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+    height: 220px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.splitter{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
